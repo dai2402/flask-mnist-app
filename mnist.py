@@ -32,7 +32,7 @@ def allowed_file(filename):
 
 
 #学習済みモデルをロード
-model = load_model('./model.h5')
+model = load_model('./model.h5', compile=False)
 
 
 #トップページにアクセスしたときに実行される関数を定義
